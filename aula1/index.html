@@ -4,25 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Sobre o Martin Luther King</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam laudantium, voluptates cum optio veritatis illo ipsam! Porro voluptatibus necessitatibus vel iste accusantium natus, in dolorum cupiditate quo, vitae suscipit?
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus autem, eum repudiandae cum mollitia praesentium, illum blanditiis eaque quidem tempora odit asperiores consectetur alias, facilis itaque doloremque voluptatem architecto.
-    </p>
+    <h1 class="center">Sobre o Martin Luther King</h1>
     
-    <img src="./assets/img/mlkjr.webp" alt="foto do Martin Luther King Jr">
-    <h2>Video do meu discurso mais famoso</h2>
+    <div class="container">
+       <div class="p-30">
+        <p class="center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam laudantium, voluptates cum optio veritatis illo ipsam! Porro voluptatibus necessitatibus vel iste accusantium natus, in dolorum cupiditate quo, vitae suscipit?
+        </p>
+        <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus autem, eum repudiandae cum mollitia praesentium, illum blanditiis eaque quidem tempora odit asperiores consectetur alias, facilis itaque doloremque voluptatem architecto.
+        </p>
+       </div>
+       <div>
+        <img class="br-50 wh p-30" src="./assets/img/mlkjr.webp" alt="foto do Martin Luther King Jr">
+       </div>
+    </div>
+    
+    <h2 class="center">Video do discurso mais famoso</h2>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yz0TjhINctI?si=wrEkIDQGG0Yz4faw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yz0TjhINctI?si=wrEkIDQGG0Yz4faw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://web.whatsapp.com/" rel="" target="_blank">
+                <img class="tm-social" src="assets/img/whatsapp.png" alt="logo do whatsapp">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social" src="assets/img/facebook.png" alt="logo do facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social" src="assets/img/instagram.png" alt="logo do instagram">
+            </a>
+        </div>
+        <p class="center">
+            Thiago Reis &copy 2023
+        </p>
+    </footer>
+    
 </body>
 </html>
