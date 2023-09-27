@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://www.estilogangster.com.br/wp-content/uploads/2017/05/estilo-wall9-solo-gangster-grigio-sul-bian-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.center{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+p {
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.centralizar{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-50 img{
+    
+    height: 50px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
